@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/home.jpg);
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  position: absolute;
+  object-fit: cover;
+}
+
+
+
+h1,
+h2,
+h3 {
+  color: #bd5ef3;
+  font-family: "Quintessential", cursive;
+}
+
+p {
+  color: #817e7e;
+  line-height: 2rem;
+  font-size: 1.6rem;
+}
+
+/* .dropdown-menu li a{
+  color: #817e7e;
+
+} */
+
+
+/* #navbarSupportedContent ul li a {
+	color: #ffffff;
+} */
+
+
+/* .navbar-brand {
+  margin: 0;
+  padding: 0;
+  margin-right: 400px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.navbar div ul li {
+  list-style: none;
+  margin-right: 20px;
+  color:rgb(161, 161, 160);
+
+} */
+/* 
+.navbar div ul li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; 
+}
+
+/*hover*//* 
+.navbar div ul li a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  background-size: 100% 2px;
+  font-size: larger;
+
+}
+
+.nav-link {
+  color:#ffffff;
+  display: block;
+  font-size: larger;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+} */ 
