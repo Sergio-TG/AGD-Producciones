@@ -4,26 +4,8 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
 }
-
-body {
-  background-image: url(../img/home.jpg);
-  width: 100%;
-  min-height: 100vh;
-  height: 100%;
-  max-width: 100%;
-  justify-content: center;
-  align-items: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  background-position:center;
-  position: absolute;
-  object-fit: cover;
-}
-
-
 
 h1,
 h2,
@@ -99,3 +81,30 @@ p {
   text-decoration: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 } */ 
+
+.carousel-item img {
+  object-fit: cover;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carousel-indicators [data-bs-target]{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fafafa;
+}
+
+.carousel-indicators .active {
+  width: 10px;
+  height: 10px;
+  background-color: #0b0b0b;
+
+}
+
+
+h5{
+  display: inline-block;
+  writing-mode: vertical-lr; /* "lr" indica la dirección del texto: de izquierda a derecha */
+  text-align: left;
+}
