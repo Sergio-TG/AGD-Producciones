@@ -7,34 +7,20 @@ html {
   font-size: 100%;
 }
 
-h1,
-h2,
-h3 {
-  color: #bd5ef3;
-  font-family: "Quintessential", cursive;
-}
-
 p {
   color: #817e7e;
   line-height: 2rem;
   font-size: 1.6rem;
 }
 
-/* .dropdown-menu li a{
-  color: #817e7e;
+.container-fluid {
+  margin-top: 30px;
+} 
 
-} */
-
-
-/* #navbarSupportedContent ul li a {
-	color: #ffffff;
-} */
-
-
-/* .navbar-brand {
-  margin: 0;
-  padding: 0;
-  margin-right: 400px;
+/*Logo*/
+.navbar-brand {
+  margin-left: 70px;
+  padding: 5px;
 }
 
 .navbar {
@@ -44,44 +30,29 @@ p {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  padding-right: 200px;
 }
 
-.navbar div ul li {
-  list-style: none;
-  margin-right: 20px;
-  color:rgb(161, 161, 160);
-
-} */
-/* 
-.navbar div ul li a {
-  font-size: 1.8rem;
-  text-decoration: none;
-  color: #ffffff;
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s; 
-}
-
-/*hover*//* 
+/*hover*/ 
 .navbar div ul li a:hover {
   color: rgb(0, 0, 0);
   font-weight: 700;
   background-size: 100% 2px;
-  font-size: larger;
-
-}
+ }
 
 .nav-link {
+  margin-right: 40px;
+  font-size:x-large ;
+  font-weight: 400;
   color:#ffffff;
   display: block;
-  font-size: larger;
+  font-size: 2rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 } */ 
 
+/*Carousel*/
 .carousel-item img {
   object-fit: cover;
   max-height: 100%;
@@ -107,4 +78,19 @@ h5{
   display: inline-block;
   writing-mode: vertical-lr; /* "lr" indica la dirección del texto: de izquierda a derecha */
   text-align: left;
+} 
+
+.dropdown-menu li a {
+  color: #817e7e;
+  font-size: 1.8rem;
+  text-decoration: none;
+  background-image: linear-gradient(violet, violet);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; 
+} 
+
+.span navbar-toggler-icon {
+  color:#bd5ef3 
 }
