@@ -46,7 +46,7 @@ p {
   font-weight: 400;
   color:#ffffff;
   display: block;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: 0.5rem 1rem;
   text-decoration: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
@@ -77,6 +77,7 @@ p {
 h5{
   display: inline-block;
   writing-mode: vertical-lr; /* "lr" indica la dirección del texto: de izquierda a derecha */
+  transform: rotate(-180deg); /* Invierte el texto para comenzar desde abajo */
   text-align: left;
 } 
 
